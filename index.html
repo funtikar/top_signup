@@ -14,8 +14,61 @@
 </div>
 
 
+<!-- 
+1. 'Create Account' button color: #596D48, chosen to match tones in the background image.
+2. Default input borders color: #E5E7EB.
+3. Password input should have a red border (#ff0000) for invalid passwords using the :invalid pseudo-class.
+4. Selected input should feature a blue border (#0000ff) and a subtle box-shadow using the :focus pseudo-class.
+-->
+
 
 <div id="_formdiv">
+
+    <div id="_first_section">
+        <p>This is not a real online service! You know you need something
+            like this in your life to help you realize your deepest dreams.
+            Sign Up now to get started.
+        </p>
+    
+        <p>You <i>know</i> you want to.</p>
+    </div>
+
+    <div id="_form_section">
+        <form action="/submit.php">
+            
+            <legend>Let's do this!</legend>
+
+            <label for="first_name">FIRST NAME</label>
+            <input type="text" id="first_name" name="first_name" required>
+    
+            <label for="last_name">LAST NAME</label>
+            <input type="text" id="last_name" name="last_name">
+    
+            <label for="email">EMAIL</label>
+            <input type="text" id="email" name="email" required>
+    
+            <label for="phone_number">PHONE NUMBER</label>
+            <input type="text" id="phone_number" name="phone_number" required>
+            
+            <label for="password">PASSWORD</label>
+            <input type="text" id="password" name="password" required>
+    
+            <label for="confirm_password">CONFIRM PASSWORD</label>
+            <input type="text" id="confirm_password" name="confirm" required>
+
+
+
+        </form>
+   </div>
+
+
+   <div id="_create_button">
+    <button type="submit">Create Account</button>
+
+    <p>Already have an account? <a href="login">Log In</a></p>
+    
+   </div>
+
 
 </div>
 
