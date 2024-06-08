@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Norse Bold;
+    src: url("Norse-Bold.otf");
+}
+
+
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Norse Bold";
+    font-size: 5em;
+}
+
+#_logo_title {
+    display: flex;
+    height: 15%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;   
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 30%;
+}
+
+#_gambardiv {
+    display : flex;
+    background-image: url("unsplash.jpg");
+    flex: 2;
+    background-size: cover;
+    background-origin: content-box;
+}
+
+#_gambardiv img {
+    height: 100%;
+}
+
+#_formdiv {
+    flex: 3;
+}
